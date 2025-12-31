@@ -103,9 +103,22 @@ snow : a poor -- if durable -- imitation .
 经过尝试，Llama（Meta）和 Gemma（Google）模型需要申请：
 
 https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct
+
 https://huggingface.co/google/gemma-2-2b-it
 
 暂时不能获取使用。下面统计的是已经预测的结果：
 
 
+|模型|qwen2.5-0.5B|qwen2.5-1.5B|qwen2.5-3B|qwen2.5-7B|
+|-|-|-|-|-|
+|准确率(accuracy)|0.6089|0.5413 |0.7878|0.8693|
 
+&nbsp;
+
+## kaggle上的版本：
+
+1. https://www.kaggle.com/code/ruiluu/sst2-deberta-finetune
+   
+2. https://www.kaggle.com/code/ruiluu/sst2-deepseek-r1-distill
+   
+3. https://www.kaggle.com/code/ruiluu/sst2-instruction-learning
